@@ -12,7 +12,17 @@
 }
 
 .album-containers {
-	margin: auto 25%;
+	margin: auto 5%;
+	/*margin-top: 2.5em;*/
+}
+
+.album-containers div div {
+	margin: 2em;
+}
+
+.album-containers h3 {
+	border: .15em solid;
+	text-align: center;
 }
 
 /*.footer {
