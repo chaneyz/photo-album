@@ -1,0 +1,31 @@
+.header {
+	background: #333333;
+	color: #CCCCCC;
+	text-align: center;
+	clear: both;
+}
+
+.sub-header {
+	background: #CCCCCC;
+	color: black;
+	border-bottom: solid .1em;
+}
+
+.album-containers {
+	margin: auto 25%;
+}
+
+/*.footer {
+	background: #333333;
+	color: #CCCCCC;
+}
+
+.btn {
+	width: 100%;
+	margin: .5em;
+	margin-top: 3.1em;
+}
+
+.body {
+	padding: 1.5em;
+}*/
