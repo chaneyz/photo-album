@@ -38,3 +38,7 @@ h3 {
 .albums-nav {
 	display: none;
 }
+
+.albums [id^=album] {
+	display: none;
+}
