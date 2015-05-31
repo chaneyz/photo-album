@@ -7,11 +7,19 @@
 	margin-bottom: 2em;
 }
 
+a {
+	text-decoration: none;
+}
+
 .album1 {
+
+}
+
+.album1-photos {
 	display: none;
 }
 
-.album2 {
+.album2-photos {
 	display: none;
 }
 
