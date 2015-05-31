@@ -3,22 +3,22 @@
 	color: #CCCCCC;
 	text-align: center;
 	clear: both;
-	font: #000
+	font: #000;
+	margin-bottom: 2em;
 }
 
-.album-containers {
+/*.album-containers {
 	margin: auto 5%;
-	/*margin-top: 2.5em;*/
-}
+}*/
 
-.album-containers div div {
+/*.album-containers div div {
 	margin: 2em;
 }
 
 .album-containers h3 {
 	border: .12em solid;
 	text-align: center;
-}
+}*/
 
 .album1 {
 	display: none;
