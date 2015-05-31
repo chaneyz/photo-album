@@ -3,12 +3,7 @@
 	color: #CCCCCC;
 	text-align: center;
 	clear: both;
-}
-
-.sub-header {
-	background: #CCCCCC;
-	color: black;
-	border-bottom: solid .1em;
+	font: #000
 }
 
 .album-containers {
@@ -21,21 +16,10 @@
 }
 
 .album-containers h3 {
-	border: .15em solid;
+	border: .12em solid;
 	text-align: center;
 }
 
-/*.footer {
-	background: #333333;
-	color: #CCCCCC;
+.album1 {
+	display: none;
 }
-
-.btn {
-	width: 100%;
-	margin: .5em;
-	margin-top: 3.1em;
-}
-
-.body {
-	padding: 1.5em;
-}*/
