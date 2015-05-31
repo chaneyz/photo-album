@@ -7,28 +7,30 @@
 	margin-bottom: 2em;
 }
 
-/*.album-containers {
-	margin: auto 5%;
-}*/
-
-/*.album-containers div div {
-	margin: 2em;
-}
-
-.album-containers h3 {
-	border: .12em solid;
-	text-align: center;
-}*/
-
 .album1 {
 	display: none;
 }
 
-.album1 div div {
-	margin: 2em;
+.album2 {
+	display: none;
 }
 
-.album1 h3 {
-	border: .12em solid;
-	text-align: center;
+.album3 {
+	display: none;
+}
+
+.album4 {
+	display: none;
+}
+
+.album5 {
+	display: none;
+}
+
+.album6 {
+	display: none;
+}
+
+.albums-nav {
+	display: none;
 }
