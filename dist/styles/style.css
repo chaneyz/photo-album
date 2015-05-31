@@ -7,11 +7,31 @@
 	margin-bottom: 2em;
 }
 
+h3 {
+	text-align: center;
+}
+
 .album1-photos {
 	display: none;
 }
 
 .album2-photos {
+	display: none;
+}
+
+.album3-photos {
+	display: none;
+}
+
+.album4-photos {
+	display: none;
+}
+
+.album5-photos {
+	display: none;
+}
+
+.album6-photos {
 	display: none;
 }
 
