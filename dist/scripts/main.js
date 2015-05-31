@@ -15,11 +15,12 @@ var targetSection = $(window.location.hash);
 	}
 	targetSection.show();
 
-$('.album-containers a').on('click', function(e) {
-		var target = $(e.target);
-		var targetName = target.attr('href');
+$(".album-containers a").on("click", function(e) {
+		var target = $(this);
+		var targetName = target.attr("href");
 		$('.album-containers').hide();
 		$(targetName).show();
+		$('.albums-nav').show();
 	});
 
 // $('.albums-nav').on('click', function(e) {
