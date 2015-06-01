@@ -42,3 +42,7 @@ h3 {
 .albums [id^=album] {
 	display: none;
 }
+
+button {
+	text-align: center;
+}
