@@ -5,8 +5,9 @@ $(".album-containers a").on("click", function(e) {
 		var targetName = target.attr("href");
 		
 		$('.album-containers').hide();
+		$('.albums-nav a').show();
 		$(targetName).show();
-		$('.albums-nav').show();
+		$('.albums-nav a').show();
 	});
 
 $(".albums-nav a").on("click", function(e) {
@@ -16,13 +17,15 @@ $(".albums-nav a").on("click", function(e) {
 		$($(this).attr("href")).show();
 	});
 
-// $("#title").on("click", function(e) {
-// 	$(".album-containers").show();
-// 	$(".sidemenu").hide();
+$("#title").on("click", function(e) {
+	$("#all-photos sections").hide();
+	$(".albums-nav a").hide();
+	$(".album-containers").show();	
 
-// 	});
 
-// $(".albums-nav a").on("click", function(e) {
+	});
+
+// $("#all-photos a").click (function(e) {
 // 		// hide all `.album`
 // 		$(".albums [id^=album]").hide();
 // 		// show `target` `.album`
